@@ -1,16 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 body{
+    body
+{background: #000000;
+
+min-height: 100vh;
+overflow: hidden;}
+.container{max-width: 1300px;}
+}
+html{
+    white-space:nowrap;
+    }
+    body {
+    display:inline-block;
+    overflow-x: hidden;
+   
+    }
+body{
+    display: flex;
     margin: auto;
     font-family: 'Sora', sans-serif;
     background-image: url(3.jpg);
     box-sizing: border-box;
-    background-color: rgb(133, 105, 105);
     overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%, 100vh;
+    background-size:cover;
+    mask-repeat: no-repeat;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    justify-content: center;
 }
 body img {position: absolute;
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
+    
 
 }
 
@@ -80,7 +105,8 @@ button:hover{
     background-color: beige;
     color: black;
 }
-ul {padding-top: 20px;
+ul {
+    padding-top: 20px;
     padding-left: 20px;
     position: absolute;
     color: aliceblue;
@@ -91,7 +117,7 @@ ul {padding-top: 20px;
     transform: translateX(-50%);
     border: 2px solid white;
     width: 400px;
-    height: 400px;
+    height: 250px;
     top: 110%;
     border-radius: 40px;
     background-color: rgba(0, 0, 0, 0.534);
